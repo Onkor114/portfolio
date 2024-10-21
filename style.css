@@ -1,0 +1,102 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+
+}
+
+.container {
+    max-width: 670px;
+    margin: 100px auto 0;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+}
+a:hover {
+    text-decoration: underline;
+    color: #4d4dcc;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image {
+    width: 100px;
+    height:100px;
+    border-radius: 20%;
+    outline: 0;
+}
+.image img {
+    object-fit: cover;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+#about {
+    max-width: 470px;
+    margin: auto;
+}
+/* Section styling */
+section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+span {
+    color: orangered;
+}
+
+/* Contact form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+#contact form {
+    padding: 20px 0;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
