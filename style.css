@@ -37,8 +37,8 @@ header {
     margin-bottom: 20px;
 }
 .image {
-    width: 100px;
-    height:100px;
+    width: 200px;
+    height:200px;
     border-radius: 20%;
     outline: 0;
 }
